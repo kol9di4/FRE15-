@@ -73,7 +73,8 @@ body{
 /*                                             IMAGE-TEXT-SECTION                         */
 
 .image-with-text{
-    max-width: 45%;
+    max-width: calc(45% + 200px);
+    margin-left: -200px;
     overflow: hidden;
 }
 .text-section{
@@ -106,6 +107,10 @@ body{
 #left-text-section{
     padding: 30px;
     padding-right: 100px;
+}
+#left-img-section{
+    margin-right: -200px;
+    margin-left: 0px;
 }
 
 @media screen and (max-width: 768px){
