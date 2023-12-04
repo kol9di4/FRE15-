@@ -155,10 +155,33 @@ h2{
     overflow: hidden;
     width: calc(100% / 3 - 60px);
 }
-.card-teammate img{
+.card-teammate>img{
     position: relative;
     transform: translateX(120px);
 }
+.card-teammate h4{
+    font-size: 26px;
+    color: #1d9d72;
+    margin: 20px 0;
+    letter-spacing: .2rem;
+}
+.card-teammate h4{
+    font-size: 26px;
+    color: #1d9d72;
+    margin: 20px 0;
+    letter-spacing: .2rem;
+}.card-teammate span{
+    line-height: 32px;
+    margin-bottom: 40px;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+}
+.soc-icons{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 768px){
     .card, .icon-card{
         width: calc(100% - 40px);
